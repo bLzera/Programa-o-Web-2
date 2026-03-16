@@ -12,6 +12,7 @@ require_once('../headers.php');
 </head>
 <body>
     <div class="content">
+        <h4>Formulário principal</h4>
         <form action="main.php" method="get" class="dataForm">
             <div class="formField">
                 <label for="name" class="fieldLabel">Nome completo</label>
@@ -33,6 +34,10 @@ require_once('../headers.php');
                 <input type="submit" class="formBtn" value="Enviar"/>
             </div>
         </form>
+        <h4>Envio com URL manual</h4>
+        <a class="formBtn btnSolto" href='http://localhost/Atividades/Atividade%201/main.php?name=envio+manual&telefone=123123&email=sdasdas&mensagem=essa+requisição+foi+enviada+com+uma+url+feita+manualmente'>
+            Enviar
+        </a>
     </div>
 </body>
 </html>
