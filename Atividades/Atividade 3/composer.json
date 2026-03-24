@@ -1,0 +1,17 @@
+{
+    "name": "biel/atividade3",
+    "autoload": {
+        "psr-4": {
+            "Biel\\Atividade3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bLzera",
+            "email": "gabriel.tadeudiliz@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}
